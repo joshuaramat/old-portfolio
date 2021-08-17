@@ -9,12 +9,17 @@
     --secondary-color: #CD946A;
 }
 
+/* utilities */
+.flex-row {
+    display: flex;
+}
+
 body {
     color: var(--secondary-color);
     font-family: helvetica, Arial, sans-serif;
     background-color: var(--primary-color);
 }
-
+/* header section */
 header {
     padding: 20px 35px;
     background-color: var(--primary-color);
@@ -96,12 +101,15 @@ header nav ul li a:hover {
 
 /* section titles */
 .section-title {
+    padding: 35px;
     width: 35%;
     text-align: left;
     margin: 3.5%;
     color: var(--secondary-color);
     font-size: 36px;
     line-height: 1.2;
+    float: left;
+    overflow: auto;
 }
 
 div {
@@ -109,14 +117,41 @@ div {
 }
 
 /* about me */
+about-me {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    overflow: auto;
+}
     
 .section-text {
-    width: 85%;
+    display: flex;
+    width: 65%;
     text-align: left;
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
     line-height: 1.2;
+    float: right;
+    z-index: 9999;
+}
+ 
+/* work section */
+.work-info {
+    padding: 35px;
+    width: 65%;
+    text-align: left;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+    float: right;
 }
 
 /* contact me section */
@@ -149,7 +184,3 @@ margin: 7px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-/* utilities */
-.flex-row {
-    display: flex;
-}
