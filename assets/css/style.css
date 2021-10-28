@@ -215,13 +215,13 @@ main {
 @media screen and (max-width: 980px) {
     header {
         justify-content: center;
-        padding 0 0 10px 0;
+        padding: 0 0 10px 0;
         text-align: center;
     }
 
     header h1 {
         width: 100%;
-        padding 5px;
+        padding: 5px;
         font-size: 10vw;
         margin-bottom: 10px;
     }
@@ -240,7 +240,7 @@ main {
     }
 }
 
-@media screen and max (max-width 768px) {
+@media screen and (max-width: 768px) {
     .hero {
         flex-direction: column;
         align-items: flex-start;
