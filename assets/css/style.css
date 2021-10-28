@@ -78,7 +78,6 @@ main {
 
 .hero {
     background: var(--tertiary);
-    background-image: url("../images/hero-bg.JPG");
     background-size: cover;
     background-position: center;
     min-height: 60vh;
@@ -87,6 +86,7 @@ main {
     justify-content: flex-end;
     align-items: flex-end;
     text-align: right;
+    background-image: url("../images/hero-bg.JPG");
 }
 
 .hero div {
