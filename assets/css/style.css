@@ -86,7 +86,7 @@ main {
     justify-content: flex-end;
     align-items: flex-end;
     text-align: right;
-    background-image: url("../images/hero-bg.JPG");
+    background-image: url('../images/hero-bg.jpg');
 }
 
 .hero div {
