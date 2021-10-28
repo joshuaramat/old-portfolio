@@ -77,7 +77,7 @@ main {
 }
 
 .hero {
-    background: white;
+    background: var(--tertiary);
     background-image: url("../images/hero-bg.JPG");
     background-size: cover;
     background-position: center;
