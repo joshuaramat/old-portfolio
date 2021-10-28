@@ -3,9 +3,9 @@
 ## Purpose
 A website that showcases my current work from UC Berkeley Extension's Web Development Bootcamp
 
-##Built With
+## Built With
 * HTML
 * CSS
 
-##Website
+## Website
 https://joshuaramat.github.io/portfolio/
