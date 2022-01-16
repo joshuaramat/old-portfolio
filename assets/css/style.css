@@ -220,6 +220,10 @@ main {
     background-image: url(../images/movie-dashboard.png);
 }
 
+.movie-talk-v3 {
+    background-image: url(../images/movie-talk-v3.png);
+}
+
 @media screen and (max-width: 980px) {
     header {
         justify-content: center;
